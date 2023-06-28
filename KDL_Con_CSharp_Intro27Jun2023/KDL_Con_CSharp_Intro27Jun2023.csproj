@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.OOPMiscEg</StartupObject>
+    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.GenericEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatatypeEg.cs" />
+    <Compile Include="GenericEg.cs" />
     <Compile Include="HelloWorldProgram.cs" />
     <Compile Include="MethodEg.cs" />
     <Compile Include="OOPIntroEg.cs" />
