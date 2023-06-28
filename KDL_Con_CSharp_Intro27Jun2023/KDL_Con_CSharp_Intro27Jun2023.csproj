@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.DatatypeEg</StartupObject>
+    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.MethodEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="DatatypeEg.cs" />
     <Compile Include="HelloWorldProgram.cs" />
+    <Compile Include="MethodEg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
