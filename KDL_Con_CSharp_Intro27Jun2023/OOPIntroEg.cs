@@ -12,7 +12,7 @@ namespace KDL_Con_CSharp_Intro27Jun2023
 
         static void Main()
         {
-            clsA objA= new clsA();
+            clsA objA= new  clsB();
             objA.Display();
             clsB objB= new clsB();
             objB.Display(); 
@@ -43,19 +43,19 @@ namespace KDL_Con_CSharp_Intro27Jun2023
 
 
 
-    class clsA
+    abstract class clsA
     {
-        public virtual void Display()
-        {
-            Console.WriteLine("In Display of clsA");
-        }
+        public abstract void Display();
+        //{
+        //    Console.WriteLine("In Display of clsA");
+        //}
 
     }
 
 
     class clsB:clsA
     {
-        public override void Display()
+        public sealed override void Display()
         {
             Console.WriteLine("In Display of clsB");
         }
@@ -65,10 +65,10 @@ namespace KDL_Con_CSharp_Intro27Jun2023
 
     class clsC : clsB
     {
-        public override void Display()
-        {
-            Console.WriteLine("In Display of clsC");
-        }
+        //public override void Display()
+        //{
+        //    Console.WriteLine("In Display of clsC");
+        //}
 
     }
 
