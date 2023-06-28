@@ -13,8 +13,25 @@ namespace KDL_Con_CSharp_Intro27Jun2023
         static void Main()
         {
             clsA objA= new clsA();
+            objA.Display();
+            clsB objB= new clsB();
+            objB.Display(); 
+          
 
-            objA.var_pub = 100;
+            clsC objC= new clsC();
+            objC.Display();
+
+
+            objA = objC; // Casting; implicit Casting
+            objA.Display();
+
+
+            objC = (clsC)objA; // Explicit Casting 
+            objC.Display(); 
+  Console.ReadKey();
+
+
+
 
 
         }
@@ -28,24 +45,33 @@ namespace KDL_Con_CSharp_Intro27Jun2023
 
     class clsA
     {
-        private int var_prv = 0;
-        public  int var_pub = 0;
-        int var_Defa = 0;
-        protected int var_ptd = 0;
+        public virtual void Display()
+        {
+            Console.WriteLine("In Display of clsA");
+        }
 
     }
 
 
     class clsB:clsA
     {
-        public void Display()
+        public override void Display()
         {
-
-            var_ptd = 200;
-
-        
+            Console.WriteLine("In Display of clsB");
         }
 
     }
+
+
+    class clsC : clsB
+    {
+        public override void Display()
+        {
+            Console.WriteLine("In Display of clsC");
+        }
+
+    }
+
+
 
 }
