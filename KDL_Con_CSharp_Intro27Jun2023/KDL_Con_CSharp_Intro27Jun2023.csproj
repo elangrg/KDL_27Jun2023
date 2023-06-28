@@ -49,6 +49,7 @@
     <Compile Include="DatatypeEg.cs" />
     <Compile Include="HelloWorldProgram.cs" />
     <Compile Include="MethodEg.cs" />
+    <Compile Include="OOPIntroEg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
