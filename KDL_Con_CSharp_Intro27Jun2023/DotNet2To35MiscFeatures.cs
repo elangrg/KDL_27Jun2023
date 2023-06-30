@@ -23,7 +23,24 @@ namespace KDL_Con_CSharp_Intro27Jun2023
             //LocalTypeInference();
 
 
-            ObjectInit_AnonynmousType();
+            //  ObjectInit_AnonynmousType();
+
+            // Extension Method Eg
+            char c = 'a';
+
+            ExtensionMethodEg.IsValidEmpIDChar(c);
+
+           
+            c.IsValidEmpIDChar("some value");
+
+            string st = "";
+            st.IsValidEmpIDChar();
+
+            Candidate o = new Candidate();
+            o.IsValidEmpIDChar();
+
+            DateTime dt = DateTime.Now;
+            dt.IsValidEmpIDChar();
 
 
 
@@ -109,4 +126,19 @@ namespace KDL_Con_CSharp_Intro27Jun2023
         
 
     }
+
+    static class ExtensionMethodEg
+    {
+        public static bool IsValidEmpIDChar(this object c, string st="some String")
+        {
+            return true;
+
+        }
+
+
+
+
+    }
+
+
 }
