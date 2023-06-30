@@ -39,10 +39,23 @@ namespace KDL_Con_CSharp_Intro27Jun2023
 
 
             // Implicitly typed Argument with Expression body
-            fptr += (x, y) =>  x + y; 
+            fptr += (x, y) =>  x + y;
 
 
 
+            // 3.0 (4overloads) => 4.0 (17 Overloads)
+            // 
+
+            Func<int, int, int> fptr1 = (a, b) => a + b;
+
+            Console.WriteLine(fptr1(10,20));
+
+            Action<string> fptr2 = msg => Console.WriteLine(msg);
+            fptr2("hello action");
+
+
+
+           
 
             Console.WriteLine(fptr(100, 200));
 
