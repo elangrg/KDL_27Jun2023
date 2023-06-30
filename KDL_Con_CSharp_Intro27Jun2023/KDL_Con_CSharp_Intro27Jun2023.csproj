@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.CollectionEg</StartupObject>
+    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.DotNet2To35MiscFeatures</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,11 +49,13 @@
     <Compile Include="CollectionEg.cs" />
     <Compile Include="DatatypeEg.cs" />
     <Compile Include="DelegatesEg.cs" />
+    <Compile Include="DotNet2To35MiscFeatures.cs" />
     <Compile Include="GenericEg.cs" />
     <Compile Include="HelloWorldProgram.cs" />
     <Compile Include="MethodEg.cs" />
     <Compile Include="OOPIntroEg.cs" />
     <Compile Include="OOPMiscEg.cs" />
+    <Compile Include="PartialClassDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
