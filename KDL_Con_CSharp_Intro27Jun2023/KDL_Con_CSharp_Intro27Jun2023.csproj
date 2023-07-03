@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.LINQEg</StartupObject>
+    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.LINQStdOperatorsEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="GenericEg.cs" />
     <Compile Include="HelloWorldProgram.cs" />
     <Compile Include="LINQEg.cs" />
+    <Compile Include="LINQStdOperatorsEg.cs" />
     <Compile Include="MethodEg.cs" />
     <Compile Include="OOPIntroEg.cs" />
     <Compile Include="OOPMiscEg.cs" />
@@ -61,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Content\KynDryl_27Jun_23ClassFlow.pptx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
