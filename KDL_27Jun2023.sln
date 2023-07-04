@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDL_Con_CSharp_Intro27Jun2023", "KDL_Con_CSharp_Intro27Jun2023\KDL_Con_CSharp_Intro27Jun2023.csproj", "{3BFB7CE0-2B3A-4A1E-8606-263EC0B489D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductWebAPI", "ProductWebAPI\ProductWebAPI.csproj", "{E4327E45-70AE-44DC-9E14-F16EC39576ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3BFB7CE0-2B3A-4A1E-8606-263EC0B489D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BFB7CE0-2B3A-4A1E-8606-263EC0B489D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BFB7CE0-2B3A-4A1E-8606-263EC0B489D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4327E45-70AE-44DC-9E14-F16EC39576ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4327E45-70AE-44DC-9E14-F16EC39576ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4327E45-70AE-44DC-9E14-F16EC39576ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4327E45-70AE-44DC-9E14-F16EC39576ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
