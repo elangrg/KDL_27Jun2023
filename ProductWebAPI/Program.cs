@@ -9,12 +9,16 @@ namespace ProductWebAPI
             // Add services to the container.
 
             builder.Services.AddScoped<Models.KNDProductDbContext>();
+            builder.Services.AddOpenApiDocument();
 
-            builder.Services.AddControllers();
+
+            builder.Services.AddControllers().AddXmlSerializerFormatters();
 
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseAuthorization();
 
