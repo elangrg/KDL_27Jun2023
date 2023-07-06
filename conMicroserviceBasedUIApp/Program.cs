@@ -20,8 +20,11 @@ namespace conMicroserviceBasedUIApp
 
         static void GetOrders()
         {
+            // Direct
+            // string URLOrder = @"http://localhost:5244/api/Order";
 
-            string URLOrder = @"http://localhost:5244/api/Order";
+            //Using API Gateway
+            string URLOrder = @"http://localhost:5245/gateway/order";
 
             using (var client = new HttpClient())
             {
@@ -56,8 +59,10 @@ namespace conMicroserviceBasedUIApp
 
         static void GetProducts()
         {
-
-            string URLProduct = @"http://localhost:5287/api/Product";
+            // Direct
+            // string URLProduct = @"http://localhost:5287/api/Product";
+            //Using API Gateway
+            string URLProduct = @"http://localhost:5245/gateway/Product";
 
             using (var client = new HttpClient())
             {
