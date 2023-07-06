@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.TaskParallelLibEg</StartupObject>
+    <StartupObject>KDL_Con_CSharp_Intro27Jun2023.ExceptionHandlingEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="DatatypeEg.cs" />
     <Compile Include="DelegatesEg.cs" />
     <Compile Include="DotNet2To35MiscFeatures.cs" />
+    <Compile Include="ExceptionHandlingEg.cs" />
     <Compile Include="GenericEg.cs" />
     <Compile Include="HelloWorldProgram.cs" />
     <Compile Include="LINQEg.cs" />
